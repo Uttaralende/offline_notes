@@ -5,7 +5,6 @@ import 'package:offline_notes/features/notes/presentation/widgets/sync_status_ch
 import '../../domain/entities/note.dart';
 import '../pages/add_edit_note_page.dart';
 import '../providers/providers.dart';
-// import 'sync_status_chip.dart';
 
 class NoteTile extends ConsumerWidget {
   final Note note;

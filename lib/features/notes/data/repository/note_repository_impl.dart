@@ -3,7 +3,6 @@ import '../../domain/repositories/note_repository.dart';
 import '../datasources/localDataSource.dart';
 import '../datasources/remoteDataSource.dart';
 import '../models/note_model.dart';
-// import '../mapper/note_mapper.dart';
 
 class NoteRepositoryImpl implements NoteRepository {
   final LocalDataSource localDataSource;

@@ -1,9 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:offline_notes/core/network/api_client.dart';
 import 'package:offline_notes/features/notes/data/datasources/localDataSource.dart' ;
-
-// import '../../data/datasources/localDatasource.dart';
-// import '../../data/datasources/remote_datasource.dart';
 import '../../data/datasources/remoteDataSource.dart';
 import '../../data/repository/note_repository_impl.dart';
 

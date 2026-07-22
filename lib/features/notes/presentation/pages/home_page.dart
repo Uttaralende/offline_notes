@@ -1,13 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
 import '../providers/providers.dart';
 import '../widgets/emptyNotesWidget.dart';
 import '../widgets/note_tile_widget.dart';
 import 'add_edit_note_page.dart';
-// import '../widgets/note_tile.dart';
-// import '../widgets/empty_notes_widget.dart';
-// import 'add_edit_note_page.dart';
 
 class HomePage extends ConsumerWidget {
   const HomePage({super.key});

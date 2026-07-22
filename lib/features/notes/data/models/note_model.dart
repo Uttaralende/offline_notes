@@ -1,16 +1,8 @@
 import 'package:hive/hive.dart';
 
 import '../../domain/entities/note.dart';
-// import 'package:offline_notes/features/notes/domain/entities/note.dart' show Note;
-// import 'package:offline_notes/features/notes/domain/entities/note.dart';
 
 part 'note_model.g.dart';
-
-// enum SyncStatus {
-//   synced,
-//   pending,
-//   conflict,
-// }
 
 @HiveType(typeId: 0)
 class NoteModel extends HiveObject {
@@ -73,7 +65,7 @@ class NoteModel extends HiveObject {
 
   Map<String, dynamic> toJson() {
     return {
-      // 'id': id,
+      'id': id,
       'title': title,
       'body': body,
       'updatedAt': updatedAt.toIso8601String(),
